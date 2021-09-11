@@ -1,6 +1,6 @@
-# STOKE CONTROL
+# STOCK CONTROL
 
- ### A stoke control made with nestjs <code><img height="20" src="https://docs.nestjs.com/assets/logo-small.svg"></code>
+ ### A stock control made with nestjs <code><img height="20" src="https://docs.nestjs.com/assets/logo-small.svg"></code>
 
 ## Requirements
 
