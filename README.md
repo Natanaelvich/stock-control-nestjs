@@ -15,6 +15,29 @@ For development, you will only need Node.js installed on your environement.
 ## Start & watch
 
     $ npm start
+    
+    ## Methods
+Requests for the API must follow the standards:
+| Method | Description |
+|---|---|
+| `GET` | Returns information from one or more records. |
+| `POST` | Used to create a new record. |
+| `PUT` | Update data from a record or change its status. |
+| `DELETE` | Removes a registry from the system. |
+
+
+## Answers
+
+| Code | Description |
+|---|---|
+| `200` | Request executed successfully (success).|
+| `400` | Validation errors or the fields entered do not exist in the system.|
+| `401` | Invalid access data.|
+| `404` | Searched record not found (Not found).|
+| `405` | Method not implemented.|
+| `410` | Searched record has been deleted from the system and is no longer available.|
+| `422` | Data reported is outside the scope defined for the field.|
+| `429` | Maximum number of requests reached. (*wait a few seconds and try again*)|
 
 ## Languages & tools
 
